@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Domain.Todos;
 using SharedKernel;
 
-namespace Infrastructure.AIServices;
+namespace Application.AIServices;
 public interface ITodoGenerator
 {
     /// <summary>

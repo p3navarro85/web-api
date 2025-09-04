@@ -5,6 +5,7 @@ using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 using Application.Abstractions.Authentication;
+using Application.AIServices;
 using Domain.Todos;
 using Infrastructure.Authentication;
 using OllamaSharp;

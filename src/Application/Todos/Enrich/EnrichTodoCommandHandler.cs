@@ -11,7 +11,7 @@ using Application.Abstractions.Authentication;
 using Application.Abstractions.Messaging;
 using Domain.Todos;
 using Domain.Users;
-using Infrastructure.AIServices;
+using Application.AIServices;
 using SharedKernel;
 
 namespace Application.Todos.Enrich;
