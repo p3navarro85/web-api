@@ -1,0 +1,42 @@
+#--------------------------------------------------------------------------------
+# Conventional Commits Git Message Template
+#
+# A commit message consists of a header, a body, and a footer.
+# All parts are separated by a blank line.
+#
+# Header: <type>(<scope>): <subject> (max 50 chars)
+#
+# Body:
+# A more detailed explanation of the change. Explain the 'why' and 'how'.
+# Use imperative mood.
+# (Wrap lines at 72 chars)
+#
+# Footer:
+# Place any breaking changes or references to issues here.
+# BREAKING CHANGE: <description of change>
+# Closes #<issue-number>
+#--------------------------------------------------------------------------------
+
+# Type (required):
+# feat: A new feature
+# fix: A bug fix
+# docs: Documentation only changes
+# style: Changes that do not affect the meaning of the code (white-space, formatting, missing semicolons, etc)
+# refactor: A code change that neither fixes a bug nor adds a feature
+# perf: A code change that improves performance
+# test: Adding missing tests or correcting existing tests
+# build: Changes that affect the build system or external dependencies
+# ci: Changes to our CI configuration files and scripts
+# chore: Other changes that don't modify src or test files
+# revert: Reverts a previous commit
+
+# Scope (optional):
+# The part of the codebase this commit affects, e.g., 'auth', 'user-list', 'ui'
+
+<type>(<scope>): <subject>
+
+# Body (optional):
+
+# Footer (optional):
+# BREAKING CHANGE:
+# Closes #
