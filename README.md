@@ -1,4 +1,4 @@
-# Clean Architecture Template
+# Web API with Clean Architecture Template
 
 What's included in the template?
 
@@ -18,19 +18,5 @@ What's included in the template?
 - Testing projects
   - Architecture testing
 
-I'm open to hearing your feedback about the template and what you'd like to see in future iterations.
-
-If you're ready to learn more, check out [**Pragmatic Clean Architecture**](https://www.milanjovanovic.tech/pragmatic-clean-architecture?utm_source=ca-template):
-
-- Domain-Driven Design
-- Role-based authorization
-- Permission-based authorization
-- Distributed caching with Redis
-- OpenTelemetry
-- Outbox pattern
-- API Versioning
-- Unit testing
-- Functional testing
-- Integration testing
-
-Stay awesome!
+Based on Milan's clean architecture template: [**Pragmatic Clean Architecture**](https://www.milanjovanovic.tech/pragmatic-clean-architecture?utm_source=ca-template).
+Added Integration with Ollama for Todos generation
